@@ -12,7 +12,7 @@ int main(void)
 
 	for ( ch = 97; ch <= 122;);
 	{
-		putchar("%c", ch);
+		putchar(char, ch);
 		ch++;
 	}
 	return 0;
