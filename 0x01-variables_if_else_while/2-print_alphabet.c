@@ -10,8 +10,7 @@ int main(void)
 {
 	char ch;
 
-	for ( ch = 97; ch <= 122;);
-	{
+	for ( ch = 97; ch <= 122;);{
 		putchar(char, ch);
 		ch++;
 	}
