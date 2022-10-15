@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints "The alphabet in lowercase without q,e followed by a new line."
+ * main - "Prints The alphabet in lowercase followed by a new line."
  *
  * Return - Always 0
  */
