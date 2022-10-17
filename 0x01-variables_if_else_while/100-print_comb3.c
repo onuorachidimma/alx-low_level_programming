@@ -8,23 +8,26 @@
 
 int main(void)
 {
-	int num;
+	int n;
+	int m;
 
-	for (num = "01"; num <= "89"; num++)
+	for (n = '0'; n < '9'; n++)
 	{
-		putchar(num);
-		if(num != "89")
+		for (m = n + 1; m <= '9'; m++)
 		{
-			putchar(',');
-			putchar(' ');
-		}
-		if(num != "10"-"11" && num != "30"-"33" && num != "40-44")
-			putchar(num);
-		{
-		if(num != "60"-"66" && num != "70"-"78" && num != "80"-"88")
-			putchar(num);
+			if(m != n)
+			{
+				putchar(n);
+				putchar(m);
+				if(n == '8' && m == '9')
+					continue;
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
 	return (0);
 }
+
+
