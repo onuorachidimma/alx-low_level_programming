@@ -6,14 +6,13 @@
  * Return: Always 0
  */
 
-void print_alphabet(char alpha, char bet)
+void print_alphabet(void)
 {
-	char ch = char alpha <= char bet; alpha++;
-	_putchar('ch');
+	char c
+	
+	for (c = 'a'; 'a' <= 'z'; c++)
+	
+		_putchar('c');
 	_putchar('\n');
-}
-int main(void)
-{
-	print_alphabet(a, z);
 	return (0);
 }
