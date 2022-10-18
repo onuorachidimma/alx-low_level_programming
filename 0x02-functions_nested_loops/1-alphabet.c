@@ -1,4 +1,4 @@
-#includ "main.h"
+#include "main.h"
 
 /**
  * main - Prints the alphabet, in lowercase, followed by a new line.
@@ -8,7 +8,7 @@
 
 void print_alphabet(char alpha, char bet)
 {
-	char ch = char alpha <= char; alpa++;
+	char ch = char alpha <= char bet; alpha++;
 	_putchar('ch');
 	_putchar('\n');
 }
