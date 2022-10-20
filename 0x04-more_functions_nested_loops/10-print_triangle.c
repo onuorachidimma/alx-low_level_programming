@@ -19,7 +19,7 @@ void print_triangle(int size)
 			for (tri = 0; tri < draw; tri++)
 				_putchar('#');
 
-			if (hash == size)
+			if (draw == size)
 				continue;
 
 			_putchar('\n');
