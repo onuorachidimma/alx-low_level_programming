@@ -17,8 +17,7 @@ void print_diagonal(int n)
 				_putchar(' ');
 			_putchar('\\');
 
-
-		if (len == n - 1)
+		if (draw == n - 1)
 		}
 	}
 
