@@ -17,7 +17,7 @@ void rev_string(char *s)
 	while (s[rev])
 		rev++;
 
-	while (rev1 < rev)
+	while (rev1 > rev)
 		--rev;
 	{
 		str = s[rev1];
