@@ -6,13 +6,12 @@
 
 int _strlen(char *s)
 {
-	char *str;
+	char *s;
 	int len;
 
-	str = "My first strlen!";
+	s = "My first strlen!";
 	len = 0;
-	*s = &len;
-	while (str++)
+	while (s++)
 		len++;
 	return (len);
 }
