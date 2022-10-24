@@ -15,8 +15,10 @@ void rev_string(char *s)
 	while (s[rev])
 		rev++;
 
-	while (0 > rev; rev--)
+	while (0 > rev)
+		rev--;
 	{
-		str = s[rev];
+		s[rev--] = s[rev];
+		s[rev] = str;
 	}
 }
