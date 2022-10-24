@@ -11,6 +11,7 @@ int _strlen(char *s)
 
 	str = "My first strlen!";
 	len = 0;
+	*s = &len;
 	while (str++)
 		len++;
 	return (len);
