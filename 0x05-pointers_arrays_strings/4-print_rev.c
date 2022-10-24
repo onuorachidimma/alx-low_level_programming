@@ -6,7 +6,7 @@
  * Return: Returns the string 
  */
 
-void print_rev(char *s);
+void print_rev(char *s)
 {
 	while (*str)
 		_putchar(*str--);
