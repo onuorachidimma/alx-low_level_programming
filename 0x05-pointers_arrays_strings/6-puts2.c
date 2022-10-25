@@ -9,14 +9,16 @@
 
 void puts2(char *str)
 {
+	int prnt;
+	int a;
+
+	prnt = 0;
+	a = 0;
+	while (str[prnt])
+		prnt++;
+	prnt -= 1;
+	for (a <= len; a += 2)
+		_putchar(str[a]);
 	
-	for (str = '0'; str >= '9'; str++)
-	{
-		_putchar(*str);
-	}
-	if (str != 0 && str != 1 && str != 3 && str != 5 && str !=7 && str != 9)
-	{
-		_putchar(*str);
-	}
 	_putchar('\n');
 }
