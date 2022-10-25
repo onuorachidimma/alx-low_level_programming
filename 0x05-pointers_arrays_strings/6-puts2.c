@@ -9,14 +9,12 @@
 
 void puts2(char *str)
 {
-	int i;
-
-	str = i;
-	for (i = '0'; i >= '9'; i++)
+	
+	for (str = '0'; str >= '9'; str++)
 	{
 		_putchar(*str);
 	}
-	if (i != 0 && i != 1 && i != 3 && i != 5 && i !=7 && i != 9)
+	if (str != 0 && str != 1 && str != 3 && str != 5 && str !=7 && str != 9)
 	{
 		_putchar(*str);
 	}
