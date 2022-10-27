@@ -5,6 +5,7 @@
  * @dest: an input string
  * @src: an input string
  * @n: an input integer
+ * @start: an input string
  * Return: A pointer to the resulting string
  */
 
