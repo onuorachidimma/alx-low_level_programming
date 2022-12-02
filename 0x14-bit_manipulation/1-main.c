@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - check the code for alx School students.
+ * main - check the code
  *
  * Return: Always 0.
  */
