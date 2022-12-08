@@ -194,7 +194,7 @@ void print_type(char *h, unsigned int bits64)
 /**
  * print_entry_point_address - print antre point
  * @h: var of arrays
- * @bits42: you can declare fx for 64 bit
+ * @bits64: you can declare fx for 64 bit
  * Return void
  */
 
