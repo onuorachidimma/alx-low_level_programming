@@ -14,7 +14,7 @@ void times_table(void);
 void print_times_table(int n);
 int add(int, int);
 void print_to_98(int n);
-int sum_of_multiples_3_and_5(int n)
+int sumOfMultiples(int n);
 
 
 #endif
