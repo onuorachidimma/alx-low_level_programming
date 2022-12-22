@@ -28,6 +28,7 @@ int main(void)
 int sumOfMultiples(int n)
 {
 	int i, sum;
+
 	sum = 0;
 	for (i = 1; i < n; i++)
 	{
